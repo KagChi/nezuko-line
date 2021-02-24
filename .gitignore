@@ -1,0 +1,6 @@
+node_modules
+yarn.lock
+dist
+src/config
+oldsrc
+yarn-error.log
