@@ -7,7 +7,7 @@ export default {
     exec(client: NezuClient, event: any) {
         client.replyMessage(event.replyToken, {
             type: 'text',
-            text: 'Pong!!!!!!'
+            text: '🏓 | pong!'
         })
     }
 }
