@@ -1,4 +1,5 @@
 import snek from 'node-superfetch'
+import * as modules1 from '../commands/Fun/module.json';
 export default class Util {
   static randomRange(min: number, max: number) {
     return Math.floor(Math.random() * (max - min + 1)) + min;
