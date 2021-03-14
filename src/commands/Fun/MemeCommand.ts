@@ -7,10 +7,11 @@ export default {
         description: 'Get random meme images.'
     },
     async exec(client: NezuClient, event: any) {
+        const img = await KagChiApi.memes()
         return client.replyMessage(event.replyToken, {
             type: 'image',
-            originalContentUrl: `https://imgur.com/${await KagChiApi.memes().hash}.jpg`,
-            previewImageUrl: `https://imgur.com/${await KagChiApi.memes().hash}.jpg`
+            originalContentUrl: `https://imgur.com/${img.hash}.jpg`,
+            previewImageUrl: `https://imgur.com/${img.hash}.jpg`
         })
     }
 }
