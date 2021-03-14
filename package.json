@@ -17,7 +17,7 @@
     "express": "^4.17.1",
     "ksoft.js": "^3.1.4",
     "mathjs": "^9.3.0",
-    "node-superfetch": "^0.1.10",
+    "node-superfetch": "^0.1.11",
     "novelcovid": "^3.0.0",
     "rimraf": "^3.0.2",
     "snekfetch": "^4.0.4",
