@@ -6,7 +6,7 @@
   },
   "dependencies": {
     "@discordjs/collection": "^0.1.5",
-    "@kagchi/brainly.js": "1.0.3",
+    "@kagchi/brainly.js": "1.0.4",
     "@kagchi/kag-api": "^1.1.1",
     "@line/bot-sdk": "^7.0.0",
     "@types/node": "^14.14.31",
