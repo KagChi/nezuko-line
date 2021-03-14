@@ -1,4 +1,4 @@
-import line from '@line/bot-sdk';
+import { middleware } from '@line/bot-sdk';
 import config from '../config';
 const nezuRest = require('express')()
 import NezuClient from '../struct/NezuClient';
@@ -6,7 +6,7 @@ const client = new NezuClient()
 nezuRest.get('/', (req: any, res: any) => {
     res.sendStatus(200)
 })
-nezuRest.post('/callback', line.middleware({
+nezuRest.post('/callback', middleware({
     channelAccessToken: config.channelAccessToken,
     channelSecret: config.channelSecret   
 }), (req: any, res: any) => {
