@@ -3,8 +3,8 @@ import NezuClient from "../../struct/NezuClient";
 import KagChiApi from "@kagchi/kag-api";
 export default {
     info: {
-        name: 'slap',
-        description: 'Get random slap images.'
+        name: 'meme',
+        description: 'Get random meme images.'
     },
     async exec(client: NezuClient, event: any) {
         return client.replyMessage(event.replyToken, {
