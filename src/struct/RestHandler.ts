@@ -1,6 +1,6 @@
 import { middleware } from '@line/bot-sdk';
 import config from '../config';
-import express = from'express';
+import express from 'express';
 import NezuClient from '../struct/NezuClient';
 const client = new NezuClient();
 const nezuRest = express();
